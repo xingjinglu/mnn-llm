@@ -14,36 +14,16 @@
 		4D5B97C12B2B26DE003AF2F1 /* llm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B97BE2B2B26DE003AF2F1 /* llm.cpp */; };
 		4D5B97C22B2B26DE003AF2F1 /* tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B97BF2B2B26DE003AF2F1 /* tokenizer.cpp */; };
 		4D5B97C42B2B29CF003AF2F1 /* LLMInferenceEngineWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B97C32B2B29CF003AF2F1 /* LLMInferenceEngineWrapper.mm */; };
-		4D63E2D22B2B3730006D2B0C /* MNN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D63E2CE2B2B36CD006D2B0C /* MNN.framework */; };
-		4D63E3762B2C414C006D2B0C /* lm.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3592B2C414C006D2B0C /* lm.mnn */; };
-		4D63E3772B2C414C006D2B0C /* embedding.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E35A2B2C414C006D2B0C /* embedding.mnn */; };
-		4D63E3782B2C414C006D2B0C /* block_3.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E35B2B2C414C006D2B0C /* block_3.mnn */; };
-		4D63E3792B2C414C006D2B0C /* block_15.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E35C2B2C414C006D2B0C /* block_15.mnn */; };
-		4D63E37A2B2C414C006D2B0C /* block_14.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E35D2B2C414C006D2B0C /* block_14.mnn */; };
-		4D63E37B2B2C414C006D2B0C /* block_2.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E35E2B2C414C006D2B0C /* block_2.mnn */; };
-		4D63E37C2B2C414C006D2B0C /* block_0.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E35F2B2C414C006D2B0C /* block_0.mnn */; };
-		4D63E37D2B2C414C006D2B0C /* block_16.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3602B2C414C006D2B0C /* block_16.mnn */; };
-		4D63E37E2B2C414C006D2B0C /* block_17.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3612B2C414C006D2B0C /* block_17.mnn */; };
-		4D63E37F2B2C414C006D2B0C /* block_1.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3622B2C414C006D2B0C /* block_1.mnn */; };
-		4D63E3802B2C414C006D2B0C /* block_5.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3632B2C414C006D2B0C /* block_5.mnn */; };
-		4D63E3812B2C414C006D2B0C /* block_13.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3642B2C414C006D2B0C /* block_13.mnn */; };
-		4D63E3822B2C414C006D2B0C /* block_12.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3652B2C414C006D2B0C /* block_12.mnn */; };
-		4D63E3832B2C414C006D2B0C /* _block_0.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3662B2C414C006D2B0C /* _block_0.mnn */; };
-		4D63E3842B2C414C006D2B0C /* block_4.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3672B2C414C006D2B0C /* block_4.mnn */; };
-		4D63E3852B2C414C006D2B0C /* block_6.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3682B2C414C006D2B0C /* block_6.mnn */; };
-		4D63E3862B2C414C006D2B0C /* block_10.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3692B2C414C006D2B0C /* block_10.mnn */; };
-		4D63E3872B2C414C006D2B0C /* block_11.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E36A2B2C414C006D2B0C /* block_11.mnn */; };
-		4D63E3882B2C414C006D2B0C /* block_7.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E36B2B2C414C006D2B0C /* block_7.mnn */; };
-		4D63E3892B2C414C006D2B0C /* block_20.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E36C2B2C414C006D2B0C /* block_20.mnn */; };
-		4D63E38A2B2C414C006D2B0C /* block_21.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E36D2B2C414C006D2B0C /* block_21.mnn */; };
-		4D63E38B2B2C414C006D2B0C /* block_9.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E36E2B2C414C006D2B0C /* block_9.mnn */; };
-		4D63E38C2B2C414C006D2B0C /* block_23.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E36F2B2C414C006D2B0C /* block_23.mnn */; };
-		4D63E38D2B2C414C006D2B0C /* embeddings_bf16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3702B2C414C006D2B0C /* embeddings_bf16.bin */; };
-		4D63E38E2B2C414C006D2B0C /* block_22.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3712B2C414C006D2B0C /* block_22.mnn */; };
-		4D63E38F2B2C414C006D2B0C /* block_8.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3722B2C414C006D2B0C /* block_8.mnn */; };
-		4D63E3902B2C414C006D2B0C /* block_19.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3732B2C414C006D2B0C /* block_19.mnn */; };
-		4D63E3912B2C414C006D2B0C /* block_18.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3742B2C414C006D2B0C /* block_18.mnn */; };
-		4D63E3922B2C414C006D2B0C /* tokenizer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D63E3752B2C414C006D2B0C /* tokenizer.txt */; };
+		5BEF7E872C1C1D090099D151 /* MNN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D63E2CE2B2B36CD006D2B0C /* MNN.framework */; };
+		5BEF7F6B2C22B9690099D151 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F4F2C22B9690099D151 /* .gitattributes */; };
+		5BEF7F702C22B9690099D151 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F542C22B9690099D151 /* config.json */; };
+		5BEF7F732C22B9690099D151 /* configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F572C22B9690099D151 /* configuration.json */; };
+		5BEF7F762C22B9690099D151 /* embeddings_bf16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F5A2C22B9690099D151 /* embeddings_bf16.bin */; };
+		5BEF7F792C22B9690099D151 /* llm_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F5D2C22B9690099D151 /* llm_config.json */; };
+		5BEF7F7C2C22B9690099D151 /* qwen2-1.5b-int4.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F602C22B9690099D151 /* qwen2-1.5b-int4.mnn */; };
+		5BEF7F7F2C22B9690099D151 /* qwen2-1.5b-int4.mnn.weight in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F632C22B9690099D151 /* qwen2-1.5b-int4.mnn.weight */; };
+		5BEF7F822C22B9690099D151 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F662C22B9690099D151 /* README.md */; };
+		5BEF7F852C22B9690099D151 /* tokenizer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F692C22B9690099D151 /* tokenizer.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,35 +66,15 @@
 		4D5B97C62B2B2C43003AF2F1 /* MNN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MNN.framework; path = "mnn-llm/MNN.framework"; sourceTree = "<group>"; };
 		4D5B97C82B2B2C57003AF2F1 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
 		4D63E2CE2B2B36CD006D2B0C /* MNN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MNN.framework; sourceTree = "<group>"; };
-		4D63E3592B2C414C006D2B0C /* lm.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = lm.mnn; sourceTree = "<group>"; };
-		4D63E35A2B2C414C006D2B0C /* embedding.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = embedding.mnn; sourceTree = "<group>"; };
-		4D63E35B2B2C414C006D2B0C /* block_3.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_3.mnn; sourceTree = "<group>"; };
-		4D63E35C2B2C414C006D2B0C /* block_15.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_15.mnn; sourceTree = "<group>"; };
-		4D63E35D2B2C414C006D2B0C /* block_14.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_14.mnn; sourceTree = "<group>"; };
-		4D63E35E2B2C414C006D2B0C /* block_2.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_2.mnn; sourceTree = "<group>"; };
-		4D63E35F2B2C414C006D2B0C /* block_0.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_0.mnn; sourceTree = "<group>"; };
-		4D63E3602B2C414C006D2B0C /* block_16.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_16.mnn; sourceTree = "<group>"; };
-		4D63E3612B2C414C006D2B0C /* block_17.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_17.mnn; sourceTree = "<group>"; };
-		4D63E3622B2C414C006D2B0C /* block_1.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_1.mnn; sourceTree = "<group>"; };
-		4D63E3632B2C414C006D2B0C /* block_5.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_5.mnn; sourceTree = "<group>"; };
-		4D63E3642B2C414C006D2B0C /* block_13.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_13.mnn; sourceTree = "<group>"; };
-		4D63E3652B2C414C006D2B0C /* block_12.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_12.mnn; sourceTree = "<group>"; };
-		4D63E3662B2C414C006D2B0C /* _block_0.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = _block_0.mnn; sourceTree = "<group>"; };
-		4D63E3672B2C414C006D2B0C /* block_4.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_4.mnn; sourceTree = "<group>"; };
-		4D63E3682B2C414C006D2B0C /* block_6.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_6.mnn; sourceTree = "<group>"; };
-		4D63E3692B2C414C006D2B0C /* block_10.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_10.mnn; sourceTree = "<group>"; };
-		4D63E36A2B2C414C006D2B0C /* block_11.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_11.mnn; sourceTree = "<group>"; };
-		4D63E36B2B2C414C006D2B0C /* block_7.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_7.mnn; sourceTree = "<group>"; };
-		4D63E36C2B2C414C006D2B0C /* block_20.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_20.mnn; sourceTree = "<group>"; };
-		4D63E36D2B2C414C006D2B0C /* block_21.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_21.mnn; sourceTree = "<group>"; };
-		4D63E36E2B2C414C006D2B0C /* block_9.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_9.mnn; sourceTree = "<group>"; };
-		4D63E36F2B2C414C006D2B0C /* block_23.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_23.mnn; sourceTree = "<group>"; };
-		4D63E3702B2C414C006D2B0C /* embeddings_bf16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = embeddings_bf16.bin; sourceTree = "<group>"; };
-		4D63E3712B2C414C006D2B0C /* block_22.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_22.mnn; sourceTree = "<group>"; };
-		4D63E3722B2C414C006D2B0C /* block_8.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_8.mnn; sourceTree = "<group>"; };
-		4D63E3732B2C414C006D2B0C /* block_19.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_19.mnn; sourceTree = "<group>"; };
-		4D63E3742B2C414C006D2B0C /* block_18.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = block_18.mnn; sourceTree = "<group>"; };
-		4D63E3752B2C414C006D2B0C /* tokenizer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tokenizer.txt; sourceTree = "<group>"; };
+		5BEF7F4F2C22B9690099D151 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		5BEF7F542C22B9690099D151 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		5BEF7F572C22B9690099D151 /* configuration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configuration.json; sourceTree = "<group>"; };
+		5BEF7F5A2C22B9690099D151 /* embeddings_bf16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = embeddings_bf16.bin; sourceTree = "<group>"; };
+		5BEF7F5D2C22B9690099D151 /* llm_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = llm_config.json; sourceTree = "<group>"; };
+		5BEF7F602C22B9690099D151 /* qwen2-1.5b-int4.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = "qwen2-1.5b-int4.mnn"; sourceTree = "<group>"; };
+		5BEF7F632C22B9690099D151 /* qwen2-1.5b-int4.mnn.weight */ = {isa = PBXFileReference; lastKnownFileType = file; path = "qwen2-1.5b-int4.mnn.weight"; sourceTree = "<group>"; };
+		5BEF7F662C22B9690099D151 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5BEF7F692C22B9690099D151 /* tokenizer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tokenizer.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D63E2D22B2B3730006D2B0C /* MNN.framework in Frameworks */,
+				5BEF7E872C1C1D090099D151 /* MNN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +92,7 @@
 		4D5B977F2B2B21D3003AF2F1 = {
 			isa = PBXGroup;
 			children = (
-				4D63E3582B2C414C006D2B0C /* qwen-1.8b-int4 */,
+				5BEF7F6A2C22B9690099D151 /* Qwen2-1.5B-Instruct-MNN */,
 				4D5B978A2B2B21D3003AF2F1 /* mnn-llm */,
 				4D5B97892B2B21D3003AF2F1 /* Products */,
 				4D5B97C52B2B2C26003AF2F1 /* Frameworks */,
@@ -249,41 +209,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4D63E3582B2C414C006D2B0C /* qwen-1.8b-int4 */ = {
+		5BEF7F6A2C22B9690099D151 /* Qwen2-1.5B-Instruct-MNN */ = {
 			isa = PBXGroup;
 			children = (
-				4D63E3592B2C414C006D2B0C /* lm.mnn */,
-				4D63E35A2B2C414C006D2B0C /* embedding.mnn */,
-				4D63E35B2B2C414C006D2B0C /* block_3.mnn */,
-				4D63E35C2B2C414C006D2B0C /* block_15.mnn */,
-				4D63E35D2B2C414C006D2B0C /* block_14.mnn */,
-				4D63E35E2B2C414C006D2B0C /* block_2.mnn */,
-				4D63E35F2B2C414C006D2B0C /* block_0.mnn */,
-				4D63E3602B2C414C006D2B0C /* block_16.mnn */,
-				4D63E3612B2C414C006D2B0C /* block_17.mnn */,
-				4D63E3622B2C414C006D2B0C /* block_1.mnn */,
-				4D63E3632B2C414C006D2B0C /* block_5.mnn */,
-				4D63E3642B2C414C006D2B0C /* block_13.mnn */,
-				4D63E3652B2C414C006D2B0C /* block_12.mnn */,
-				4D63E3662B2C414C006D2B0C /* _block_0.mnn */,
-				4D63E3672B2C414C006D2B0C /* block_4.mnn */,
-				4D63E3682B2C414C006D2B0C /* block_6.mnn */,
-				4D63E3692B2C414C006D2B0C /* block_10.mnn */,
-				4D63E36A2B2C414C006D2B0C /* block_11.mnn */,
-				4D63E36B2B2C414C006D2B0C /* block_7.mnn */,
-				4D63E36C2B2C414C006D2B0C /* block_20.mnn */,
-				4D63E36D2B2C414C006D2B0C /* block_21.mnn */,
-				4D63E36E2B2C414C006D2B0C /* block_9.mnn */,
-				4D63E36F2B2C414C006D2B0C /* block_23.mnn */,
-				4D63E3702B2C414C006D2B0C /* embeddings_bf16.bin */,
-				4D63E3712B2C414C006D2B0C /* block_22.mnn */,
-				4D63E3722B2C414C006D2B0C /* block_8.mnn */,
-				4D63E3732B2C414C006D2B0C /* block_19.mnn */,
-				4D63E3742B2C414C006D2B0C /* block_18.mnn */,
-				4D63E3752B2C414C006D2B0C /* tokenizer.txt */,
+				5BEF7F4F2C22B9690099D151 /* .gitattributes */,
+				5BEF7F542C22B9690099D151 /* config.json */,
+				5BEF7F572C22B9690099D151 /* configuration.json */,
+				5BEF7F5A2C22B9690099D151 /* embeddings_bf16.bin */,
+				5BEF7F5D2C22B9690099D151 /* llm_config.json */,
+				5BEF7F602C22B9690099D151 /* qwen2-1.5b-int4.mnn */,
+				5BEF7F632C22B9690099D151 /* qwen2-1.5b-int4.mnn.weight */,
+				5BEF7F662C22B9690099D151 /* README.md */,
+				5BEF7F692C22B9690099D151 /* tokenizer.txt */,
 			);
-			name = "qwen-1.8b-int4";
-			path = "../../qwen-1.8b-int4";
+			path = "Qwen2-1.5B-Instruct-MNN";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,7 +253,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					4D5B97872B2B21D3003AF2F1 = {
 						CreatedOnToolsVersion = 14.1;
@@ -345,37 +284,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D63E38E2B2C414C006D2B0C /* block_22.mnn in Resources */,
-				4D63E38A2B2C414C006D2B0C /* block_21.mnn in Resources */,
-				4D63E3842B2C414C006D2B0C /* block_4.mnn in Resources */,
-				4D63E3782B2C414C006D2B0C /* block_3.mnn in Resources */,
 				4D5B97932B2B21D5003AF2F1 /* Preview Assets.xcassets in Resources */,
+				5BEF7F7C2C22B9690099D151 /* qwen2-1.5b-int4.mnn in Resources */,
+				5BEF7F702C22B9690099D151 /* config.json in Resources */,
+				5BEF7F822C22B9690099D151 /* README.md in Resources */,
+				5BEF7F6B2C22B9690099D151 /* .gitattributes in Resources */,
+				5BEF7F852C22B9690099D151 /* tokenizer.txt in Resources */,
+				5BEF7F762C22B9690099D151 /* embeddings_bf16.bin in Resources */,
 				4D5B97902B2B21D5003AF2F1 /* Assets.xcassets in Resources */,
-				4D63E3912B2C414C006D2B0C /* block_18.mnn in Resources */,
-				4D63E3812B2C414C006D2B0C /* block_13.mnn in Resources */,
-				4D63E3922B2C414C006D2B0C /* tokenizer.txt in Resources */,
-				4D63E37C2B2C414C006D2B0C /* block_0.mnn in Resources */,
-				4D63E38F2B2C414C006D2B0C /* block_8.mnn in Resources */,
-				4D63E3792B2C414C006D2B0C /* block_15.mnn in Resources */,
-				4D63E3822B2C414C006D2B0C /* block_12.mnn in Resources */,
-				4D63E3762B2C414C006D2B0C /* lm.mnn in Resources */,
-				4D63E37E2B2C414C006D2B0C /* block_17.mnn in Resources */,
-				4D63E37D2B2C414C006D2B0C /* block_16.mnn in Resources */,
-				4D63E3872B2C414C006D2B0C /* block_11.mnn in Resources */,
-				4D63E3882B2C414C006D2B0C /* block_7.mnn in Resources */,
-				4D63E3772B2C414C006D2B0C /* embedding.mnn in Resources */,
-				4D63E3902B2C414C006D2B0C /* block_19.mnn in Resources */,
-				4D63E3852B2C414C006D2B0C /* block_6.mnn in Resources */,
-				4D63E38C2B2C414C006D2B0C /* block_23.mnn in Resources */,
-				4D63E37F2B2C414C006D2B0C /* block_1.mnn in Resources */,
-				4D63E3832B2C414C006D2B0C /* _block_0.mnn in Resources */,
-				4D63E3802B2C414C006D2B0C /* block_5.mnn in Resources */,
-				4D63E37B2B2C414C006D2B0C /* block_2.mnn in Resources */,
-				4D63E37A2B2C414C006D2B0C /* block_14.mnn in Resources */,
-				4D63E38B2B2C414C006D2B0C /* block_9.mnn in Resources */,
-				4D63E3862B2C414C006D2B0C /* block_10.mnn in Resources */,
-				4D63E38D2B2C414C006D2B0C /* embeddings_bf16.bin in Resources */,
-				4D63E3892B2C414C006D2B0C /* block_20.mnn in Resources */,
+				5BEF7F792C22B9690099D151 /* llm_config.json in Resources */,
+				5BEF7F732C22B9690099D151 /* configuration.json in Resources */,
+				5BEF7F7F2C22B9690099D151 /* qwen2-1.5b-int4.mnn.weight in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +352,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -494,6 +414,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = " USING_DISK_EMBED=1";
@@ -524,7 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mnn-llm/Preview Content\"";
-				DEVELOPMENT_TEAM = 6T3QR3X696;
+				DEVELOPMENT_TEAM = 6XY5823SQA;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -544,7 +465,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "MNN.mnn-llm";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tx.mnn.v0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "mnn-llm/mnn-llm-Bridging-Header.h";
@@ -565,7 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mnn-llm/Preview Content\"";
-				DEVELOPMENT_TEAM = 6T3QR3X696;
+				DEVELOPMENT_TEAM = 6XY5823SQA;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -586,7 +507,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "MNN.mnn-llm";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tx.mnn.v0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "mnn-llm/mnn-llm-Bridging-Header.h";

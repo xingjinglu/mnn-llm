@@ -95,12 +95,19 @@ public:
     LlmConfig(const std::string& path) {
         // load config
         if (has_suffix(path, ".json")) {
+          try{
             std::ifstream config_file(path);
             if (config_file.is_open()) {
                 config_ = json::parse(config_file);
             } else {
+                throw std::runtime_error("unable to open config file");
                 std::cerr << "Unable to open config file: " << path << std::endl;
             }
+          }
+          catch (const std::exception& e) {
+            std::cout << "Open file exception: " << e.what() << std::endl;
+          }
+
             base_dir_ = base_dir(path);
         } else {
             // compatibility with the original usage
