@@ -15,15 +15,16 @@
 		4D5B97C22B2B26DE003AF2F1 /* tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B97BF2B2B26DE003AF2F1 /* tokenizer.cpp */; };
 		4D5B97C42B2B29CF003AF2F1 /* LLMInferenceEngineWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B97C32B2B29CF003AF2F1 /* LLMInferenceEngineWrapper.mm */; };
 		5BEF7E872C1C1D090099D151 /* MNN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D63E2CE2B2B36CD006D2B0C /* MNN.framework */; };
-		5BEF7F6B2C22B9690099D151 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F4F2C22B9690099D151 /* .gitattributes */; };
-		5BEF7F702C22B9690099D151 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F542C22B9690099D151 /* config.json */; };
-		5BEF7F732C22B9690099D151 /* configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F572C22B9690099D151 /* configuration.json */; };
-		5BEF7F762C22B9690099D151 /* embeddings_bf16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F5A2C22B9690099D151 /* embeddings_bf16.bin */; };
-		5BEF7F792C22B9690099D151 /* llm_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F5D2C22B9690099D151 /* llm_config.json */; };
-		5BEF7F7C2C22B9690099D151 /* qwen2-1.5b-int4.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F602C22B9690099D151 /* qwen2-1.5b-int4.mnn */; };
-		5BEF7F7F2C22B9690099D151 /* qwen2-1.5b-int4.mnn.weight in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F632C22B9690099D151 /* qwen2-1.5b-int4.mnn.weight */; };
-		5BEF7F822C22B9690099D151 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F662C22B9690099D151 /* README.md */; };
-		5BEF7F852C22B9690099D151 /* tokenizer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F692C22B9690099D151 /* tokenizer.txt */; };
+		5BEF7F902C23CAE40099D151 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F862C23CAE40099D151 /* .gitattributes */; };
+		5BEF7F912C23CAE40099D151 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F872C23CAE40099D151 /* config.json */; };
+		5BEF7F922C23CAE40099D151 /* configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F882C23CAE40099D151 /* configuration.json */; };
+		5BEF7F932C23CAE40099D151 /* embeddings_bf16.bin in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F892C23CAE40099D151 /* embeddings_bf16.bin */; };
+		5BEF7F942C23CAE40099D151 /* llm_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F8A2C23CAE40099D151 /* llm_config.json */; };
+		5BEF7F952C23CAE40099D151 /* qwen1.5-1.8b-int4.mnn in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F8B2C23CAE40099D151 /* qwen1.5-1.8b-int4.mnn */; };
+		5BEF7F962C23CAE40099D151 /* qwen1.5-1.8b-int4.mnn.weight in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F8C2C23CAE40099D151 /* qwen1.5-1.8b-int4.mnn.weight */; };
+		5BEF7F972C23CAE40099D151 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F8D2C23CAE40099D151 /* README.md */; };
+		5BEF7F982C23CAE40099D151 /* tokenizer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF7F8E2C23CAE40099D151 /* tokenizer.txt */; };
+		5BEF80412C2533500099D151 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEF803F2C252F760099D151 /* CoreML.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,18 +64,18 @@
 		4D5B97BE2B2B26DE003AF2F1 /* llm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = llm.cpp; sourceTree = "<group>"; };
 		4D5B97BF2B2B26DE003AF2F1 /* tokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tokenizer.cpp; sourceTree = "<group>"; };
 		4D5B97C32B2B29CF003AF2F1 /* LLMInferenceEngineWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LLMInferenceEngineWrapper.mm; sourceTree = "<group>"; };
-		4D5B97C62B2B2C43003AF2F1 /* MNN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MNN.framework; path = "mnn-llm/MNN.framework"; sourceTree = "<group>"; };
-		4D5B97C82B2B2C57003AF2F1 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
 		4D63E2CE2B2B36CD006D2B0C /* MNN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MNN.framework; sourceTree = "<group>"; };
-		5BEF7F4F2C22B9690099D151 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
-		5BEF7F542C22B9690099D151 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
-		5BEF7F572C22B9690099D151 /* configuration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configuration.json; sourceTree = "<group>"; };
-		5BEF7F5A2C22B9690099D151 /* embeddings_bf16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = embeddings_bf16.bin; sourceTree = "<group>"; };
-		5BEF7F5D2C22B9690099D151 /* llm_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = llm_config.json; sourceTree = "<group>"; };
-		5BEF7F602C22B9690099D151 /* qwen2-1.5b-int4.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = "qwen2-1.5b-int4.mnn"; sourceTree = "<group>"; };
-		5BEF7F632C22B9690099D151 /* qwen2-1.5b-int4.mnn.weight */ = {isa = PBXFileReference; lastKnownFileType = file; path = "qwen2-1.5b-int4.mnn.weight"; sourceTree = "<group>"; };
-		5BEF7F662C22B9690099D151 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5BEF7F692C22B9690099D151 /* tokenizer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tokenizer.txt; sourceTree = "<group>"; };
+		5BEF7F862C23CAE40099D151 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		5BEF7F872C23CAE40099D151 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		5BEF7F882C23CAE40099D151 /* configuration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configuration.json; sourceTree = "<group>"; };
+		5BEF7F892C23CAE40099D151 /* embeddings_bf16.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = embeddings_bf16.bin; sourceTree = "<group>"; };
+		5BEF7F8A2C23CAE40099D151 /* llm_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = llm_config.json; sourceTree = "<group>"; };
+		5BEF7F8B2C23CAE40099D151 /* qwen1.5-1.8b-int4.mnn */ = {isa = PBXFileReference; lastKnownFileType = file; path = "qwen1.5-1.8b-int4.mnn"; sourceTree = "<group>"; };
+		5BEF7F8C2C23CAE40099D151 /* qwen1.5-1.8b-int4.mnn.weight */ = {isa = PBXFileReference; lastKnownFileType = file; path = "qwen1.5-1.8b-int4.mnn.weight"; sourceTree = "<group>"; };
+		5BEF7F8D2C23CAE40099D151 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5BEF7F8E2C23CAE40099D151 /* tokenizer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tokenizer.txt; sourceTree = "<group>"; };
+		5BEF7F992C23D20E0099D151 /* mnn-llm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "mnn-llm.entitlements"; sourceTree = "<group>"; };
+		5BEF803F2C252F760099D151 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BEF80412C2533500099D151 /* CoreML.framework in Frameworks */,
 				5BEF7E872C1C1D090099D151 /* MNN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +94,7 @@
 		4D5B977F2B2B21D3003AF2F1 = {
 			isa = PBXGroup;
 			children = (
-				5BEF7F6A2C22B9690099D151 /* Qwen2-1.5B-Instruct-MNN */,
+				5BEF7F8F2C23CAE40099D151 /* Qwen1.5-1.8B-Chat-MNN */,
 				4D5B978A2B2B21D3003AF2F1 /* mnn-llm */,
 				4D5B97892B2B21D3003AF2F1 /* Products */,
 				4D5B97C52B2B2C26003AF2F1 /* Frameworks */,
@@ -110,6 +112,7 @@
 		4D5B978A2B2B21D3003AF2F1 /* mnn-llm */ = {
 			isa = PBXGroup;
 			children = (
+				5BEF7F992C23D20E0099D151 /* mnn-llm.entitlements */,
 				4D5B97BC2B2B26DE003AF2F1 /* src */,
 				4D5B979D2B2B26C6003AF2F1 /* include */,
 				4D5B978B2B2B21D3003AF2F1 /* mnn_llmApp.swift */,
@@ -202,27 +205,26 @@
 		4D5B97C52B2B2C26003AF2F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5BEF803F2C252F760099D151 /* CoreML.framework */,
 				4D63E2CE2B2B36CD006D2B0C /* MNN.framework */,
-				4D5B97C82B2B2C57003AF2F1 /* CoreML.framework */,
-				4D5B97C62B2B2C43003AF2F1 /* MNN.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5BEF7F6A2C22B9690099D151 /* Qwen2-1.5B-Instruct-MNN */ = {
+		5BEF7F8F2C23CAE40099D151 /* Qwen1.5-1.8B-Chat-MNN */ = {
 			isa = PBXGroup;
 			children = (
-				5BEF7F4F2C22B9690099D151 /* .gitattributes */,
-				5BEF7F542C22B9690099D151 /* config.json */,
-				5BEF7F572C22B9690099D151 /* configuration.json */,
-				5BEF7F5A2C22B9690099D151 /* embeddings_bf16.bin */,
-				5BEF7F5D2C22B9690099D151 /* llm_config.json */,
-				5BEF7F602C22B9690099D151 /* qwen2-1.5b-int4.mnn */,
-				5BEF7F632C22B9690099D151 /* qwen2-1.5b-int4.mnn.weight */,
-				5BEF7F662C22B9690099D151 /* README.md */,
-				5BEF7F692C22B9690099D151 /* tokenizer.txt */,
+				5BEF7F862C23CAE40099D151 /* .gitattributes */,
+				5BEF7F872C23CAE40099D151 /* config.json */,
+				5BEF7F882C23CAE40099D151 /* configuration.json */,
+				5BEF7F892C23CAE40099D151 /* embeddings_bf16.bin */,
+				5BEF7F8A2C23CAE40099D151 /* llm_config.json */,
+				5BEF7F8B2C23CAE40099D151 /* qwen1.5-1.8b-int4.mnn */,
+				5BEF7F8C2C23CAE40099D151 /* qwen1.5-1.8b-int4.mnn.weight */,
+				5BEF7F8D2C23CAE40099D151 /* README.md */,
+				5BEF7F8E2C23CAE40099D151 /* tokenizer.txt */,
 			);
-			path = "Qwen2-1.5B-Instruct-MNN";
+			path = "Qwen1.5-1.8B-Chat-MNN";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,17 +286,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BEF7F932C23CAE40099D151 /* embeddings_bf16.bin in Resources */,
+				5BEF7F982C23CAE40099D151 /* tokenizer.txt in Resources */,
+				5BEF7F922C23CAE40099D151 /* configuration.json in Resources */,
+				5BEF7F972C23CAE40099D151 /* README.md in Resources */,
+				5BEF7F962C23CAE40099D151 /* qwen1.5-1.8b-int4.mnn.weight in Resources */,
+				5BEF7F942C23CAE40099D151 /* llm_config.json in Resources */,
 				4D5B97932B2B21D5003AF2F1 /* Preview Assets.xcassets in Resources */,
-				5BEF7F7C2C22B9690099D151 /* qwen2-1.5b-int4.mnn in Resources */,
-				5BEF7F702C22B9690099D151 /* config.json in Resources */,
-				5BEF7F822C22B9690099D151 /* README.md in Resources */,
-				5BEF7F6B2C22B9690099D151 /* .gitattributes in Resources */,
-				5BEF7F852C22B9690099D151 /* tokenizer.txt in Resources */,
-				5BEF7F762C22B9690099D151 /* embeddings_bf16.bin in Resources */,
+				5BEF7F912C23CAE40099D151 /* config.json in Resources */,
+				5BEF7F952C23CAE40099D151 /* qwen1.5-1.8b-int4.mnn in Resources */,
+				5BEF7F902C23CAE40099D151 /* .gitattributes in Resources */,
 				4D5B97902B2B21D5003AF2F1 /* Assets.xcassets in Resources */,
-				5BEF7F792C22B9690099D151 /* llm_config.json in Resources */,
-				5BEF7F732C22B9690099D151 /* configuration.json in Resources */,
-				5BEF7F7F2C22B9690099D151 /* qwen2-1.5b-int4.mnn.weight in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +373,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -427,6 +430,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -442,6 +446,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "mnn-llm/mnn-llm.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mnn-llm/Preview Content\"";
@@ -467,11 +472,15 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tx.mnn.v0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "mnn-llm/mnn-llm-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -483,6 +492,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "mnn-llm/mnn-llm.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mnn-llm/Preview Content\"";
@@ -509,10 +519,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tx.mnn.v0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "mnn-llm/mnn-llm-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
